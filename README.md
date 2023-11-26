@@ -28,7 +28,7 @@ Run
 ✗ sh deno.sh day{1|2|...|10|...}
 ```
 Walk
-###### We have to export the token 
+###### Token will have to be exported
 ```
 ✗ curl -fsSL https://deno.land/x/install/install.sh | sh
 ✗ export AOC_SESSION=abc123
