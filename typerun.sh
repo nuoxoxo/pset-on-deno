@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 if [ $1 -ge 0 ] && [ $1 -lt 10 ]; then
     filename="aoc220$1.ts"
@@ -9,4 +9,7 @@ else
     exit 1
 fi
 
-tsc $filename && node $filename && rm $filename
+jsname="${filename%.ts}.js"
+
+# npm i @types/node axios dotenv
+tsc $filename && node $jsname && rm $jsname

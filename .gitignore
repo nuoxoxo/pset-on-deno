@@ -1,5 +1,7 @@
 *.js
 
+package*
+
 # Logs
 logs
 *.log
