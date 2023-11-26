@@ -8,7 +8,7 @@ Walk
 ✗ printenv
 ✗ deno run --allow-read --allow-env --allow-net template_deno.ts
 ```
-Run with the Bash script 
+Run  
 ```
 ✗ sh denorun.sh day{1|2|...|10|...}
 ```
@@ -19,7 +19,7 @@ Walk
 ✗ npm i @types/node axios dotenv
 ✗ tsc template.ts && node template.js
 ```
-Run with the Bash script 
+Run 
 ```
 ✗ sh typerun.sh day{1|2|...|11|...}
 ```
