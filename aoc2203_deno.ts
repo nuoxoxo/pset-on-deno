@@ -15,13 +15,6 @@ const fetch_input = (day: number): Promise<string> => {
         .catch ((err) => { throw err })
 }
 
-const calc = (c: string): number => {
-    const cc = c.charCodeAt(0)
-    if ('a' <= c && c <= 'z')
-        return cc - 'a'.charCodeAt(0) + 1
-    return cc - 'A'.charCodeAt(0) + 27
-}
-
 fetch_input(day).then((infile) => {
 
     const lines = infile.split('\n').map((bloc) => {
@@ -72,4 +65,11 @@ fetch_input(day).then((infile) => {
     console.log('part 2:', res2)
 
 }).catch((err) => { throw err })
+
+const calc = (c: string): number => {
+    const cc = c.charCodeAt(0)
+    if ('a' <= c && c <= 'z')
+        return cc - 'a'.charCodeAt(0) + 1
+    return cc - 'A'.charCodeAt(0) + 27
+}
 
