@@ -1,3 +1,9 @@
+__Run with the Bash script__
+```
+✗ sh denorun.sh day{1|2|...|10|...}
+or
+✗ sh typerun.sh day{1|2|...|11|...}
+```
 __Vanilla TypeScript__
 ```
 ✗ npm i @types/node axios dotenv
