@@ -25,7 +25,7 @@ Run
 # __Deno__  <img src='https://deno.com/images/artwork/hashrock_simple.png?__frsh_c=dad21828de649d12df5a23c572b88f3a3a73d0dc' width='24px' /> 
 Run  
 ```
-✗ sh Deno.sh day{1|2|...|10|...}
+✗ sh deno.sh day{1|2|...|10|...}
 ```
 Walk
 ###### Token will have to be exported
@@ -40,7 +40,7 @@ Walk
 # __Node__
 Run 
 ```
-✗ sh Node.sh day{1|2|...|11|...}
+✗ sh node.sh day{1|2|...|11|...}
 ```
 Walk
 ###### Token is required inside .env 
