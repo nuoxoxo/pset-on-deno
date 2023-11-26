@@ -31,9 +31,13 @@ Walk
 ###### Token will have to be exported
 ```
 ✗ curl -fsSL https://deno.land/x/install/install.sh | sh
-✗ export AOC_SESSION=abc123
 ✗ which deno
+```
+```
+✗ export AOC_SESSION=abc123
 ✗ printenv
+```
+```
 ✗ deno run --allow-read --allow-env --allow-net template_deno.ts
 ```
 
