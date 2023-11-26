@@ -10,7 +10,8 @@ __Vanilla TypeScript__
 ✗ npm i @types/node axios dotenv
 ✗ tsc template.ts && node template.js
 ```
-__Deno__
+__Deno__ 
+<img src='https://deno.com/images/artwork/HypnoDeno.gif?__frsh_c=dad2' width='12px' />
 ###### ﹥ export the token 
 ```
 ✗ curl -fsSL https://deno.land/x/install/install.sh | sh
@@ -19,3 +20,5 @@ __Deno__
 ✗ printenv
 ✗ deno run --allow-read --allow-env --allow-net template_deno.ts
 ```
+
+<img src='https://deno.com/images/artwork/hashrock_simple.png?__frsh_c=dad21828de649d12df5a23c572b88f3a3a73d0dc' width='42px' />
