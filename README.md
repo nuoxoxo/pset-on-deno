@@ -37,7 +37,7 @@ Walk
 ✗ deno run --allow-read --allow-env --allow-net template_deno.ts
 ```
 
-# __Node__
+# <img src='https://static.npmjs.com/attachments/ck3uwed1cmso79y74pjugy10f-gak-2x.png' width='24px' /> __Node__
 Run 
 ```
 ✗ sh node.sh day{1|2|...|11|...}
