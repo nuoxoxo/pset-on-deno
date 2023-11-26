@@ -9,7 +9,7 @@ const session = Deno.env.get("AOC_SESSION")
 
 const fetch_input = (day: number): Promise<string> => {
 
-    const url: string = `https://adventofcode.com/2022/day/${day}/input`
+    const url = `https://adventofcode.com/2022/day/${day}/input`
     const headers = new Headers({ 'Cookie': `session=${session}` })
 
     return fetch(url, { headers })
@@ -27,7 +27,7 @@ fetch_input(day).then((infile) => {
     })
     console.log('part 1:', Math.max(...sums))
     sums.sort((a, b) => b - a)
-    let top3 = sums[0] + sums[1] + sums[2]
+    const top3 = sums[0] + sums[1] + sums[2]
     console.log('part 2:', top3)
 
 }).catch((err) => { throw err })

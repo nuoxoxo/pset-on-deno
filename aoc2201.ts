@@ -8,7 +8,7 @@ const session = process.env.AOC_SESSION
 
 const fetch_input = async (day: number) : Promise<string> => {
 
-    const url: string = `https://adventofcode.com/2022/day/${day}/input`
+    const url = `https://adventofcode.com/2022/day/${day}/input`
     const headers = { 'Cookie': `session=${session}` }
     try {
         return await axios.get(url, { headers })
