@@ -12,7 +12,7 @@ Walk
 ✗ printenv
 ✗ deno run --allow-read --allow-env --allow-net template_deno.ts
 ```
-# Vanilla TypeScript 
+# Node
 Run 
 ```
 ✗ sh typerun.sh day{1|2|...|11|...}
