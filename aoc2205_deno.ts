@@ -23,8 +23,8 @@ fetch_input(day).then((infile) => {
     lines.pop()
     const len = lines.length
     console.log(lines, len)
-    let a: string[] = []
-    let op: string[] = []
+    const a: string[] = []
+    const op: string[] = []
     let ok = false
     for (const line of lines) {
         if (line === '')
@@ -38,8 +38,8 @@ fetch_input(day).then((infile) => {
     const lastline = a[a.length - 1] // get this line: " 1   2   3   4   5   6   7   8   9 "
     const tt = parseInt(lastline.charAt(lastline.length - 2))
     a.pop() // pop line " 1   2   3   4   5   6   7   8   9 "
-    let a1: string[][] = Array.from({ length: tt }, () => [])
-    let a2: string[][] = Array.from({ length: tt }, () => [])
+    const a1: string[][] = Array.from({ length: tt }, () => [])
+    const a2: string[][] = Array.from({ length: tt }, () => [])
     let i: number
     for (const s of a) {
         i = -1
@@ -70,7 +70,7 @@ fetch_input(day).then((infile) => {
 
         // part 2
 
-        let E: string = ''
+        let E = ''
         i = -1
         while (++i < m) {
             if (a2[f].length === 0) {
@@ -83,8 +83,8 @@ fetch_input(day).then((infile) => {
             E = E.slice(0, -1)
         }
     }
-    let res1: string = ''
-    let res2: string = ''
+    let res1 = ''
+    let res2 = ''
     i = -1
     while (++i < tt) {
         res1 += a1[i][a1[i].length - 1]
