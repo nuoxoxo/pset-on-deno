@@ -1,5 +1,9 @@
 # __Denon__ <img src='https://deno.com/images/artwork/HypnoDeno.gif?__frsh_c=dad2' width='24px' />
 ###### Denon is used here mainly for HMR 
+Run
+```
+✗ denon start Filename.ts
+```
 Prep
 ```
 ✗ deno install --allow-read --allow-run -f https://deno.land/x/denon/denon.ts
@@ -17,10 +21,6 @@ denon.json
     }
   }
 }
-```
-Run
-```
-✗ denon start Filename.ts
 ```
 # __Deno__  <img src='https://deno.com/images/artwork/hashrock_simple.png?__frsh_c=dad21828de649d12df5a23c572b88f3a3a73d0dc' width='24px' /> 
 Run  
