@@ -16,7 +16,7 @@ const fetch_input = (day: number): Promise<string> => {
 }
 
 const calc = (c: string): number => {
-    let cc = c.charCodeAt(0)
+    const cc = c.charCodeAt(0)
     if ('a' <= c && c <= 'z')
         return cc - 'a'.charCodeAt(0) + 1
     return cc - 'A'.charCodeAt(0) + 27
@@ -28,14 +28,14 @@ fetch_input(day).then((infile) => {
         return bloc
     })
     lines.pop()
-    let len = lines.length
+    const len = lines.length
     console.log(lines, len)
     let res = 0
     let res2 = 0
     let i = -1
     while (++i < len) {
-        let s: string = lines[i]
-        let n = s.length
+        const s: string = lines[i]
+        const n = s.length
         const l: string = s.slice(0, Math.floor(n / 2))
         const r: string = s.slice(Math.floor(n / 2))
         for (const c of l) {
