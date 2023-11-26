@@ -1,4 +1,4 @@
-# __Denon__ <img src='https://deno.com/images/artwork/HypnoDeno.gif?__frsh_c=dad2' width='25px' />
+# <img src='https://deno.com/images/artwork/HypnoDeno.gif?__frsh_c=dad2' width='25px' /> __Denon__ 
 ###### Denon is used here mainly for HMR 
 Run
 ```
@@ -22,7 +22,7 @@ denon.json
   }
 }
 ```
-# __Deno__  <img src='https://deno.com/images/artwork/hashrock_simple.png?__frsh_c=dad21828de649d12df5a23c572b88f3a3a73d0dc' width='25px' /> 
+# <img src='https://deno.com/images/artwork/hashrock_simple.png?__frsh_c=dad21828de649d12df5a23c572b88f3a3a73d0dc' width='25px' /> __Deno__
 Run  
 ```
 ✗ sh deno.sh day{1|2|...|10|...}
