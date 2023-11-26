@@ -21,8 +21,8 @@ fetch_input(day).then((infile) => {
         return bloc
     })
     lines.pop()
-    let res: number = 0
-    let res2: number = 0
+    let res = 0
+    let res2 = 0
     const dict: Record<string, number> = {
         'A': 1, 'B': 2, 'C': 3,
         'X': 1, 'Y': 2, 'Z': 3,
