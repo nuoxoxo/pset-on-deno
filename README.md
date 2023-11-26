@@ -22,7 +22,7 @@ denon.json
   }
 }
 ```
-# <img src='https://deno.com/images/artwork/hashrock_simple.png?__frsh_c=dad21828de649d12df5a23c572b88f3a3a73d0dc' width='23px' /> __Deno__
+# <img src='https://deno.com/images/artwork/hashrock_simple.png?__frsh_c=dad21828de649d12df5a23c572b88f3a3a73d0dc' width='24px' /> __Deno__
 Run  
 ```
 ✗ sh deno.sh day{1|2|...|10|...}
