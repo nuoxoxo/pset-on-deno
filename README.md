@@ -4,7 +4,7 @@ Run
 ✗ sh denorun.sh day{1|2|...|10|...}
 ```
 Walk
-###### ﹥ export the token 
+###### export the token 
 ```
 ✗ curl -fsSL https://deno.land/x/install/install.sh | sh
 ✗ export AOC_SESSION=abc123
@@ -18,7 +18,7 @@ Run
 ✗ sh typerun.sh day{1|2|...|11|...}
 ```
 Walk
-###### ﹥ token required inside .env 
+###### token required inside .env 
 ```
 ✗ npm i @types/node axios dotenv
 ✗ tsc template.ts && node template.js
