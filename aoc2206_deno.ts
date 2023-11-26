@@ -35,7 +35,7 @@ fetch_input(day).then((infile) => {
             break
         }
     }
-    let p2 = 14
+    const p2 = 14
     i = -1
     while (++i < n - p2) {
         const l: string = s.slice(i, i + p2)
