@@ -43,7 +43,7 @@ Run
 ✗ sh node.sh day{1|2|...|11|...}
 ```
 Walk
-###### Token is required inside .env 
+###### Token is required inside a .env 
 ```
 ✗ npm i @types/node axios dotenv
 ✗ tsc template.ts && node template.js
