@@ -19,7 +19,7 @@ fetch_input(day).then((infile) => {
     const a = infile.split('\n').map((bloc) => {
         if (bloc !== '') {
             const sub: number[] = []
-            for (let n of bloc) {
+            for (const n of bloc) {
                 sub.push(Number(n))
             }
             return sub
@@ -30,7 +30,7 @@ fetch_input(day).then((infile) => {
     console.log(a, a.length)
     const R: number = a.length;
     const C: number = a[0].length;
-    let peri: number = R * 2 + C * 2 - 4;
+    const peri: number = R * 2 + C * 2 - 4;
     let res1 = peri
     let res2 = 0
     let r = 0, c, i
@@ -40,7 +40,7 @@ fetch_input(day).then((infile) => {
             const n: number = a[r][c];
 
             // up
-            let ok: boolean = true;
+            let ok = true;
             i = -1
             while (++i < r) {
                 if (a[i][c] >= n) {
@@ -96,7 +96,7 @@ fetch_input(day).then((infile) => {
         c = 0
         while (++c < C - 1) {
             const n: number = a[r][c];
-            let u: number = 0;
+            let u = 0;
             i = r
             while (--i > -1) {
                 u += 1;
@@ -104,7 +104,7 @@ fetch_input(day).then((infile) => {
                     break;
                 }
             }
-            let d: number = 0;
+            let d = 0;
             i = r
             while (++i < R) {
                 d += 1;
@@ -112,7 +112,7 @@ fetch_input(day).then((infile) => {
                     break;
                 }
             }
-            let l: number = 0;
+            let l = 0;
             i = c
             while (--i > -1) {
                 l += 1;
@@ -120,7 +120,7 @@ fetch_input(day).then((infile) => {
                     break;
                 }
             }
-            let rr: number = 0;
+            let rr = 0;
             i = c
             while (++i < C) {
                 rr += 1;
@@ -128,7 +128,7 @@ fetch_input(day).then((infile) => {
                     break;
                 }
             }
-            const temp: number = u * d * l * rr;
+            const temp = u * d * l * rr;
             res2 = res2 > temp ? res2 : temp;
         }
     }
