@@ -23,8 +23,8 @@ fetch_input(day).then((infile) => {
     console.log(lines)
     let res1 = 0
     let res2 = 1e9
-    let lv: string[] = []
-    const sls: string = '/'
+    const lv: string[] = []
+    const sls = '/'
     const D: {[key: string]: number} = {}
     D[sls] = 0
 
@@ -68,7 +68,7 @@ fetch_input(day).then((infile) => {
     // part 2
     const togo: number = D[sls] - top
 
-    for (const [k, v] of Object.entries(D)) {
+    for (const [_, v] of Object.entries(D)) {
         if (v < 100000) {
             res1 += v
         }
