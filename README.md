@@ -2,11 +2,11 @@
 ###### Denon is used here mainly for HMR 
 Run
 ```
+✗ export AOC_SESSION=abc123
 ✗ denon start Filename.ts
 ```
 Prep
 ```
-✗ export AOC_SESSION=abc123
 ✗ deno install --allow-read --allow-run -f https://deno.land/x/denon/denon.ts
 ```
 denon.json
