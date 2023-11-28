@@ -2,7 +2,6 @@
 ###### Denon is used here mainly for HMR 
 Run
 ```
-✗ export AOC_SESSION=abc123
 ✗ denon start Filename.ts
 ```
 Prep
@@ -26,7 +25,6 @@ denon.json
 # <img src='https://deno.com/images/artwork/hashrock_simple.png?__frsh_c=dad21828de649d12df5a23c572b88f3a3a73d0dc' width='23px' /> __Deno__
 Run  
 ```
-✗ export AOC_SESSION=abc123
 ✗ sh deno.sh day{1|2|...|10|...}
 ```
 Walk
@@ -34,6 +32,8 @@ Walk
 ```
 ✗ curl -fsSL https://deno.land/x/install/install.sh | sh
 ✗ which deno
+✗ export AOC_SESSION=abc123
+✗ printenv
 ✗ deno run --allow-read --allow-env --allow-net template_deno.ts
 ```
 
